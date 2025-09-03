@@ -1,4 +1,3 @@
-import whisper
 import os
 import subprocess
 
@@ -10,5 +9,5 @@ for file in files:
     file_num = file.split(" [")[0].split(" #")[1]
     file_name = file.split(" ｜")[0]
     print(file_num, file_name)
-    subprocess.run(["ffmpeg", "-i",f"videos/{file}", f"audios/{file_num}_{file_name}.mp3"])
+    subprocess.run(["ffmpeg", "-i",f"videos/{file}", f"audios/{file_num}_{file_name}.mp3"]) #converting all videos files(webm) to audio file(mp3)
  

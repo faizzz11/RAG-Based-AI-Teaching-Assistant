@@ -1,0 +1,4 @@
+[
+    {"id": 0, "start": 0.0, "end": 3.68, "text": " Inline and block elements are very important to learn in HTML"}, 
+    {"id": 1, "start": 3.68, "end": 6.5200000000000005, "text": " Inline elements are those which take only this much width as required"}, {"id": 2, "start": 6.5200000000000005, "end": 9.92, "text": " And block elements are those which take the full width of the screen"}
+]
