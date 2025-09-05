@@ -1,0 +1,3389 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 0,
+            "start": 0.0,
+            "end": 4.82,
+            "text": " In this video, we will know what are the forms and what is the input tag in the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 1,
+            "start": 4.82,
+            "end": 7.74,
+            "text": " Using the form is an important element of websites"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 2,
+            "start": 7.74,
+            "end": 11.24,
+            "text": " because you submit data from client to server through the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 3,
+            "start": 11.24,
+            "end": 16.14,
+            "text": " These are the forms which you see on contact pages, google forms or enquiry forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 4,
+            "start": 16.14,
+            "end": 22.98,
+            "text": " The date and time on the flight or railway ticket, where to go and where to go, all these details are submitted through the HTML forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 5,
+            "start": 22.98,
+            "end": 24.7,
+            "text": " In the last video, very few people liked it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 6,
+            "start": 24.7,
+            "end": 28.1,
+            "text": " I will request you to like this video with high energy"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 7,
+            "start": 28.1,
+            "end": 30.92,
+            "text": " So that we can maintain high energy throughout the course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 8,
+            "start": 30.92,
+            "end": 36.24,
+            "text": " So let's go to the computer screen and see the forms, input tags and some best practices"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 9,
+            "start": 36.24,
+            "end": 37.620000000000005,
+            "text": " Let's roll the intro"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 10,
+            "start": 46.82,
+            "end": 48.82,
+            "text": " So guys, I have come to my computer screen"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 11,
+            "start": 48.82,
+            "end": 51.480000000000004,
+            "text": " And now see I am going to make a folder here quickly"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 12,
+            "start": 51.48,
+            "end": 53.48,
+            "text": " I am going to name this video video6"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 13,
+            "start": 53.48,
+            "end": 56.86,
+            "text": " Because this is the 6th video, I will click on shift right and open with code"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 14,
+            "start": 56.86,
+            "end": 58.86,
+            "text": " I have already told you all about this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 15,
+            "start": 58.86,
+            "end": 61.64,
+            "text": " And here I am going to make index.html"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 16,
+            "start": 61.64,
+            "end": 63.98,
+            "text": " And by putting an exclamation mark in it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 17,
+            "start": 63.98,
+            "end": 68.72,
+            "text": " I will do a view word wrap, turn on the screen cast mode"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 18,
+            "start": 68.72,
+            "end": 70.72,
+            "text": " And you see here I will write forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 19,
+            "start": 70.72,
+            "end": 72.72,
+            "text": " Let's learn it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 20,
+            "start": 72.72,
+            "end": 75.75999999999999,
+            "text": " So I have set the title of this forms page"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 21,
+            "start": 75.75999999999999,
+            "end": 77.75999999999999,
+            "text": " And what happens by setting the title?"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 22,
+            "start": 77.75999999999999,
+            "end": 79.75999999999999,
+            "text": " The title will be shown on our page"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 23,
+            "start": 80.34,
+            "end": 82.82000000000001,
+            "text": " Here I want to tell you about a very important setting"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 24,
+            "start": 82.82000000000001,
+            "end": 83.82000000000001,
+            "text": " Show preview"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 25,
+            "start": 83.82000000000001,
+            "end": 86.82000000000001,
+            "text": " Some of you have pointed out in the comments that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 26,
+            "start": 86.82000000000001,
+            "end": 88.82000000000001,
+            "text": " You have to click so many times, can you do it?"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 27,
+            "start": 88.82000000000001,
+            "end": 92.82000000000001,
+            "text": " Yes you can, click on gear and then on settings"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 28,
+            "start": 92.82000000000001,
+            "end": 94.82000000000001,
+            "text": " And after clicking on settings"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 29,
+            "start": 94.82000000000001,
+            "end": 99.82000000000001,
+            "text": " You can simply write live preview"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 30,
+            "start": 99.82000000000001,
+            "end": 101.82000000000001,
+            "text": " And we can actually set it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 31,
+            "start": 101.82000000000001,
+            "end": 103.82000000000001,
+            "text": " Such that whenever we click on it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 32,
+            "start": 103.82000000000001,
+            "end": 105.82000000000001,
+            "text": " It will open on the external browser"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 33,
+            "start": 105.82000000000001,
+            "end": 107.82000000000001,
+            "text": " So now I will close everything"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 34,
+            "start": 107.88,
+            "end": 108.88,
+            "text": " And as soon as I click on it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 35,
+            "start": 108.88,
+            "end": 110.88,
+            "text": " It will open on the external browser"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 36,
+            "start": 110.88,
+            "end": 112.88,
+            "text": " And I will come to my browser"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 37,
+            "start": 112.88,
+            "end": 114.88,
+            "text": " And the sigma web development codes playlist"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 38,
+            "start": 114.88,
+            "end": 116.88,
+            "text": " You can access it on the new clicker's star"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 39,
+            "start": 116.88,
+            "end": 118.88,
+            "text": " And here on the bookmark"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 40,
+            "start": 118.88,
+            "end": 120.88,
+            "text": " But now I want to tell you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 41,
+            "start": 120.88,
+            "end": 121.88,
+            "text": " As soon as we click here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 42,
+            "start": 121.88,
+            "end": 122.88,
+            "text": " You will see it has opened"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 43,
+            "start": 122.88,
+            "end": 124.88,
+            "text": " So if you want it to be like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 44,
+            "start": 124.88,
+            "end": 127.88,
+            "text": " But sometimes you will want to prefer side by side view"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 45,
+            "start": 127.88,
+            "end": 128.88,
+            "text": " And when you want to do that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 46,
+            "start": 128.88,
+            "end": 130.88,
+            "text": " When you are actually using HTML, CSS"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 47,
+            "start": 130.88,
+            "end": 132.88,
+            "text": " And working on design"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 48,
+            "start": 132.88,
+            "end": 134.88,
+            "text": " So whenever you are working on design"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 49,
+            "start": 134.88,
+            "end": 136.88,
+            "text": " You definitely want to see live previews"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 50,
+            "start": 136.94,
+            "end": 138.94,
+            "text": " So that's why this extension was made"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 51,
+            "start": 138.94,
+            "end": 140.94,
+            "text": " And it was made different from live server"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 52,
+            "start": 140.94,
+            "end": 142.94,
+            "text": " So that you can see previews on the side"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 53,
+            "start": 142.94,
+            "end": 144.94,
+            "text": " Now what we will do here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 54,
+            "start": 144.94,
+            "end": 146.94,
+            "text": " We will learn about forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 55,
+            "start": 146.94,
+            "end": 148.94,
+            "text": " What is a form?"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 56,
+            "start": 148.94,
+            "end": 150.94,
+            "text": " You know the name form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 57,
+            "start": 150.94,
+            "end": 151.94,
+            "text": " It's a railway form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 58,
+            "start": 151.94,
+            "end": 153.94,
+            "text": " We fill it and our reservation is done"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 59,
+            "start": 153.94,
+            "end": 155.94,
+            "text": " Along with that we fill the form of IIT JEE"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 60,
+            "start": 155.94,
+            "end": 156.94,
+            "text": " We fill the form of NEET"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 61,
+            "start": 156.94,
+            "end": 158.94,
+            "text": " We fill the form of any exam"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 62,
+            "start": 158.94,
+            "end": 160.94,
+            "text": " So that our data can reach those who want it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 63,
+            "start": 160.94,
+            "end": 162.94,
+            "text": " So this is a form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 64,
+            "start": 162.94,
+            "end": 164.94,
+            "text": " HTML is a form tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 65,
+            "start": 165.0,
+            "end": 167.0,
+            "text": " So you will enter the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 66,
+            "start": 167.0,
+            "end": 169.0,
+            "text": " And it will ask you the first question"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 67,
+            "start": 169.0,
+            "end": 170.0,
+            "text": " What is the action of your form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 68,
+            "start": 170.0,
+            "end": 171.0,
+            "text": " Get or Post"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 69,
+            "start": 171.0,
+            "end": 173.0,
+            "text": " Let me tell you a quick difference"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 70,
+            "start": 173.0,
+            "end": 175.0,
+            "text": " Between Get request and Post request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 71,
+            "start": 175.0,
+            "end": 176.0,
+            "text": " We will see this later"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 72,
+            "start": 176.0,
+            "end": 177.0,
+            "text": " When we will read the back end"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 73,
+            "start": 177.0,
+            "end": 179.0,
+            "text": " Get request is a very simple request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 74,
+            "start": 179.0,
+            "end": 181.0,
+            "text": " And we send the post request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 75,
+            "start": 181.0,
+            "end": 182.0,
+            "text": " In most of the cases"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 76,
+            "start": 182.0,
+            "end": 184.0,
+            "text": " When we have to give a lot of data"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 77,
+            "start": 184.0,
+            "end": 186.0,
+            "text": " For example, whenever our form is posted"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 78,
+            "start": 186.0,
+            "end": 188.0,
+            "text": " We will use the post request in most of the cases"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 79,
+            "start": 188.0,
+            "end": 190.0,
+            "text": " And what is a get request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 80,
+            "start": 190.0,
+            "end": 192.0,
+            "text": " It's a very simple request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 81,
+            "start": 192.0,
+            "end": 194.0,
+            "text": " That we just have to tell the server"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 82,
+            "start": 194.06,
+            "end": 195.06,
+            "text": " And that's it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 83,
+            "start": 195.06,
+            "end": 197.06,
+            "text": " Or we have to hit the server with a request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 84,
+            "start": 197.06,
+            "end": 198.06,
+            "text": " That's it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 85,
+            "start": 198.06,
+            "end": 200.06,
+            "text": " But if you still don't understand this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 86,
+            "start": 200.06,
+            "end": 201.06,
+            "text": " That should be fine"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 87,
+            "start": 201.06,
+            "end": 202.06,
+            "text": " No problem"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 88,
+            "start": 202.06,
+            "end": 204.06,
+            "text": " Because we will do this in detail later"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 89,
+            "start": 204.06,
+            "end": 206.06,
+            "text": " So form action is equal to post"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 90,
+            "start": 206.06,
+            "end": 207.06,
+            "text": " I have written it here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 91,
+            "start": 207.06,
+            "end": 209.06,
+            "text": " Now I can show you some input tags"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 92,
+            "start": 209.06,
+            "end": 211.06,
+            "text": " I will tell you what are the input tags"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 93,
+            "start": 211.06,
+            "end": 215.06,
+            "text": " What will be the elements in your form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 94,
+            "start": 215.06,
+            "end": 217.06,
+            "text": " Like you can enter date"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 95,
+            "start": 217.06,
+            "end": 218.06,
+            "text": " You can enter the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 96,
+            "start": 218.06,
+            "end": 220.06,
+            "text": " You can tell the name"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 97,
+            "start": 220.06,
+            "end": 222.06,
+            "text": " You can tell the phone number"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 98,
+            "start": 222.12,
+            "end": 223.12,
+            "text": " You can tell the age"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 99,
+            "start": 223.12,
+            "end": 225.12,
+            "text": " It can be just a number"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 100,
+            "start": 225.12,
+            "end": 227.12,
+            "text": " You can put these things in the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 101,
+            "start": 227.12,
+            "end": 229.12,
+            "text": " So I want to tell you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 102,
+            "start": 229.12,
+            "end": 230.12,
+            "text": " That the input tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 103,
+            "start": 230.12,
+            "end": 232.12,
+            "text": " You put it in the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 104,
+            "start": 232.12,
+            "end": 233.12,
+            "text": " And there is a label tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 105,
+            "start": 233.12,
+            "end": 235.12,
+            "text": " Which is used to label the input"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 106,
+            "start": 235.12,
+            "end": 237.12,
+            "text": " So what I will do here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 107,
+            "start": 237.12,
+            "end": 239.12,
+            "text": " The simplest input tag is type is equal to text"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 108,
+            "start": 239.12,
+            "end": 241.12,
+            "text": " So I will put the type is equal to text input here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 109,
+            "start": 241.12,
+            "end": 243.12,
+            "text": " And if I zoom out"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 110,
+            "start": 243.12,
+            "end": 245.12,
+            "text": " And if I zoom out"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 111,
+            "start": 245.12,
+            "end": 247.12,
+            "text": " So here is the input type is equal to text"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 112,
+            "start": 247.12,
+            "end": 248.12,
+            "text": " Name is equal to username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 113,
+            "start": 248.12,
+            "end": 250.12,
+            "text": " Placeholder is enter and username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 114,
+            "start": 250.18,
+            "end": 252.18,
+            "text": " Actually it will look like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 115,
+            "start": 252.18,
+            "end": 254.18,
+            "text": " You can enter your username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 116,
+            "start": 254.18,
+            "end": 256.18,
+            "text": " And the user you are going to enter"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 117,
+            "start": 256.18,
+            "end": 258.18,
+            "text": " You have to enter the username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 118,
+            "start": 258.18,
+            "end": 260.18,
+            "text": " I will write an actual"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 119,
+            "start": 260.18,
+            "end": 262.18,
+            "text": " And I will write here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 120,
+            "start": 262.18,
+            "end": 264.18,
+            "text": " For example form to apply"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 121,
+            "start": 264.18,
+            "end": 266.18,
+            "text": " For sigma web dev ta"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 122,
+            "start": 266.18,
+            "end": 268.18,
+            "text": " For sigma web dev ta"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 123,
+            "start": 268.18,
+            "end": 270.18,
+            "text": " sigma web development codes ta"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 124,
+            "start": 270.18,
+            "end": 272.18,
+            "text": " sigma web development codes ta"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 125,
+            "start": 272.18,
+            "end": 274.18,
+            "text": " Suppose we are hiring teaching assistants"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 126,
+            "start": 274.18,
+            "end": 276.18,
+            "text": " For sigma web development codes"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 127,
+            "start": 276.18,
+            "end": 278.18,
+            "text": " So we can write something like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 128,
+            "start": 278.24,
+            "end": 280.24,
+            "text": " By the way I have added subtitles"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 129,
+            "start": 280.24,
+            "end": 282.24,
+            "text": " If you haven't access the playlist"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 130,
+            "start": 282.24,
+            "end": 284.24,
+            "text": " Then do access it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 131,
+            "start": 284.24,
+            "end": 286.24,
+            "text": " And along with that I will show you one more thing"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 132,
+            "start": 286.24,
+            "end": 288.24,
+            "text": " So these subtitles are very funny"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 133,
+            "start": 288.24,
+            "end": 290.24,
+            "text": " So write sigma batch op and your village land"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 134,
+            "start": 290.24,
+            "end": 292.24,
+            "text": " And give your village land"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 135,
+            "start": 292.24,
+            "end": 294.24,
+            "text": " So if someone is watching this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 136,
+            "start": 294.24,
+            "end": 296.24,
+            "text": " Or someone who doesn't know Hindi"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 137,
+            "start": 296.24,
+            "end": 298.24,
+            "text": " He will say that what happened till here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 138,
+            "start": 298.24,
+            "end": 300.24,
+            "text": " And give your village land to me"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 139,
+            "start": 300.24,
+            "end": 302.24,
+            "text": " So you can see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 140,
+            "start": 302.24,
+            "end": 304.24,
+            "text": " I have put the H1 here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 141,
+            "start": 304.24,
+            "end": 306.24,
+            "text": " Which is our main heading"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 142,
+            "start": 306.3,
+            "end": 308.3,
+            "text": " Along with input tag we use label tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 143,
+            "start": 308.3,
+            "end": 310.3,
+            "text": " Now whose label is this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 144,
+            "start": 310.3,
+            "end": 312.3,
+            "text": " So for is equal to I will write its id"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 145,
+            "start": 312.3,
+            "end": 314.3,
+            "text": " For example I will write its id username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 146,
+            "start": 314.3,
+            "end": 316.3,
+            "text": " And for is equal to"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 147,
+            "start": 316.3,
+            "end": 318.3,
+            "text": " I will put its id"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 148,
+            "start": 318.3,
+            "end": 320.3,
+            "text": " Now what is this id"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 149,
+            "start": 320.3,
+            "end": 322.3,
+            "text": " I will tell you this later"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 150,
+            "start": 322.3,
+            "end": 324.3,
+            "text": " For now just understand that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 151,
+            "start": 324.3,
+            "end": 326.3,
+            "text": " This is a unique identifier"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 152,
+            "start": 326.3,
+            "end": 328.3,
+            "text": " To identify this element"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 153,
+            "start": 328.3,
+            "end": 330.3,
+            "text": " Like your Aadhar number is not of anyone else"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 154,
+            "start": 330.3,
+            "end": 332.3,
+            "text": " In the same way this id username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 155,
+            "start": 332.3,
+            "end": 334.3,
+            "text": " Is not available to anyone else"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 156,
+            "start": 334.36,
+            "end": 336.36,
+            "text": " I will tell you more in detail later"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 157,
+            "start": 336.36,
+            "end": 338.36,
+            "text": " So I have written label for is equal to username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 158,
+            "start": 338.36,
+            "end": 340.36,
+            "text": " And you can see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 159,
+            "start": 340.36,
+            "end": 342.36,
+            "text": " That the label will come"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 160,
+            "start": 342.36,
+            "end": 344.36,
+            "text": " So I have not put anything in the label"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 161,
+            "start": 344.36,
+            "end": 346.36,
+            "text": " So I will enter"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 162,
+            "start": 346.36,
+            "end": 348.36,
+            "text": " Your username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 163,
+            "start": 348.36,
+            "end": 350.36,
+            "text": " And you can see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 164,
+            "start": 350.36,
+            "end": 352.36,
+            "text": " You will get to see"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 165,
+            "start": 352.36,
+            "end": 354.36,
+            "text": " Enter your username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 166,
+            "start": 354.36,
+            "end": 356.36,
+            "text": " And you can enter your expertise"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 167,
+            "start": 356.36,
+            "end": 358.36,
+            "text": " Anything"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 168,
+            "start": 358.36,
+            "end": 360.36,
+            "text": " Suppose I have to ask what is your gender"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 169,
+            "start": 360.36,
+            "end": 362.36,
+            "text": " So I can do something like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 170,
+            "start": 362.42,
+            "end": 364.42,
+            "text": " And you can see enter your gender"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 171,
+            "start": 364.42,
+            "end": 366.42,
+            "text": " And as soon as I do this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 172,
+            "start": 366.42,
+            "end": 368.42,
+            "text": " I can ask you what is this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 173,
+            "start": 368.42,
+            "end": 370.42,
+            "text": " Now what happens here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 174,
+            "start": 370.42,
+            "end": 372.42,
+            "text": " We can wrap this in div"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 175,
+            "start": 372.42,
+            "end": 374.42,
+            "text": " Div is our block element"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 176,
+            "start": 374.42,
+            "end": 376.42,
+            "text": " And what are inline and block elements"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 177,
+            "start": 376.42,
+            "end": 378.42,
+            "text": " I have not told you in this course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 178,
+            "start": 378.42,
+            "end": 380.42,
+            "text": " But I will tell you in the upcoming videos"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 179,
+            "start": 380.42,
+            "end": 382.42,
+            "text": " So for now just understand"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 180,
+            "start": 382.42,
+            "end": 384.42,
+            "text": " That I am putting this in div to give a new space"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 181,
+            "start": 384.42,
+            "end": 386.42,
+            "text": " So as soon as I put this in div"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 182,
+            "start": 386.42,
+            "end": 388.42,
+            "text": " It will come in new space"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 183,
+            "start": 388.42,
+            "end": 390.42,
+            "text": " Yes there is a br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 184,
+            "start": 390.48,
+            "end": 392.48,
+            "text": " But I don't prefer br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 185,
+            "start": 392.48,
+            "end": 394.48,
+            "text": " And you will get to know why"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 186,
+            "start": 394.48,
+            "end": 396.48,
+            "text": " We don't want to bloat our HTML"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 187,
+            "start": 396.48,
+            "end": 398.48,
+            "text": " with br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 188,
+            "start": 398.48,
+            "end": 400.48,
+            "text": " You will get to know this in upcoming videos"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 189,
+            "start": 400.48,
+            "end": 402.48,
+            "text": " Now you can see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 190,
+            "start": 402.48,
+            "end": 404.48,
+            "text": " Enter your username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 191,
+            "start": 404.48,
+            "end": 406.48,
+            "text": " Now as soon as I am clicking on female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 192,
+            "start": 406.48,
+            "end": 408.48,
+            "text": " This radio button is selected"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 193,
+            "start": 408.48,
+            "end": 410.48,
+            "text": " Why is this happening"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 194,
+            "start": 410.48,
+            "end": 412.48,
+            "text": " Because the label"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 195,
+            "start": 412.48,
+            "end": 414.48,
+            "text": " I have put for is equal to female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 196,
+            "start": 414.48,
+            "end": 416.48,
+            "text": " And here I have put ID female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 197,
+            "start": 416.48,
+            "end": 418.48,
+            "text": " And along with that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 198,
+            "start": 418.54,
+            "end": 420.54,
+            "text": " Here I have put name is equal to gender"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 199,
+            "start": 420.54,
+            "end": 422.54,
+            "text": " In this input tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 200,
+            "start": 422.54,
+            "end": 424.54,
+            "text": " And name is equal to gender is also in input radio tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 201,
+            "start": 424.54,
+            "end": 426.54,
+            "text": " And as soon as we have type is equal to radio"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 202,
+            "start": 426.54,
+            "end": 428.54,
+            "text": " It means this is radio button"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 203,
+            "start": 428.54,
+            "end": 430.54,
+            "text": " And if we have same name"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 204,
+            "start": 430.54,
+            "end": 432.54,
+            "text": " Then only one of these can be selected"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 205,
+            "start": 432.54,
+            "end": 434.54,
+            "text": " If I select this then it will be this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 206,
+            "start": 434.54,
+            "end": 436.54,
+            "text": " If I select this then it will be this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 207,
+            "start": 436.54,
+            "end": 438.54,
+            "text": " Now I will show you one thing"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 208,
+            "start": 438.54,
+            "end": 440.54,
+            "text": " If I make the ID in the label form wrong"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 209,
+            "start": 440.54,
+            "end": 442.54,
+            "text": " And here also in the form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 210,
+            "start": 442.54,
+            "end": 444.54,
+            "text": " If I make the ID wrong in the first one"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 211,
+            "start": 444.54,
+            "end": 446.54,
+            "text": " Then when I click on the female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 212,
+            "start": 446.6,
+            "end": 448.6,
+            "text": " Then I will see that it is not selected"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 213,
+            "start": 448.6,
+            "end": 450.6,
+            "text": " I am clicking on male and it is selected"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 214,
+            "start": 450.6,
+            "end": 452.6,
+            "text": " So to select female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 215,
+            "start": 452.6,
+            "end": 454.6,
+            "text": " I have to click here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 216,
+            "start": 454.6,
+            "end": 456.6,
+            "text": " So what I have to do"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 217,
+            "start": 456.6,
+            "end": 458.6,
+            "text": " I have to put the ID of for is equal to"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 218,
+            "start": 458.6,
+            "end": 460.6,
+            "text": " The input tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 219,
+            "start": 460.6,
+            "end": 462.6,
+            "text": " So you can see here I have put label for is equal to female"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 220,
+            "start": 462.6,
+            "end": 464.6,
+            "text": " Along with that we have an input tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 221,
+            "start": 464.6,
+            "end": 466.6,
+            "text": " Which is type is equal to checkbox"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 222,
+            "start": 466.6,
+            "end": 468.6,
+            "text": " Now see here if I put"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 223,
+            "start": 468.6,
+            "end": 470.6,
+            "text": " Type is equal to checkbox"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 224,
+            "start": 470.6,
+            "end": 472.6,
+            "text": " I will put this in div"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 225,
+            "start": 472.6,
+            "end": 474.6,
+            "text": " And I will do the same as format document"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 226,
+            "start": 474.66,
+            "end": 476.66,
+            "text": " This will be very good"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 227,
+            "start": 476.66,
+            "end": 478.66,
+            "text": " I mean its formatting and indents"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 228,
+            "start": 478.66,
+            "end": 480.66,
+            "text": " Now see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 229,
+            "start": 480.66,
+            "end": 482.66,
+            "text": " Subscribe to newsletter"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 230,
+            "start": 482.66,
+            "end": 484.66,
+            "text": " Here I can check it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 231,
+            "start": 484.66,
+            "end": 486.66,
+            "text": " And the difference between radio button and checkbox"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 232,
+            "start": 486.66,
+            "end": 488.66,
+            "text": " Is that you can check the checkbox"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 233,
+            "start": 488.66,
+            "end": 490.66,
+            "text": " Here if you want to select"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 234,
+            "start": 490.66,
+            "end": 492.66,
+            "text": " Male or female or any option"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 235,
+            "start": 492.66,
+            "end": 494.66,
+            "text": " Then you can select it like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 236,
+            "start": 494.66,
+            "end": 496.66,
+            "text": " After this we have text area"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 237,
+            "start": 496.66,
+            "end": 498.66,
+            "text": " And select tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 238,
+            "start": 498.66,
+            "end": 500.66,
+            "text": " And I will show you that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 239,
+            "start": 500.66,
+            "end": 502.66,
+            "text": " So this is text area and select tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 240,
+            "start": 502.72,
+            "end": 504.72,
+            "text": " And copy the text area"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 241,
+            "start": 504.72,
+            "end": 506.72,
+            "text": " And I will show you the text area"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 242,
+            "start": 506.72,
+            "end": 508.72,
+            "text": " So text area input type is equal to"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 243,
+            "start": 508.72,
+            "end": 510.72,
+            "text": " Text but it has rows and column attribute"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 244,
+            "start": 510.72,
+            "end": 512.72,
+            "text": " Which helps you to make the size smaller"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 245,
+            "start": 512.72,
+            "end": 514.72,
+            "text": " Now see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 246,
+            "start": 514.72,
+            "end": 516.72,
+            "text": " The placeholder inside this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 247,
+            "start": 516.72,
+            "end": 518.72,
+            "text": " Is enter your comment here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 248,
+            "start": 518.72,
+            "end": 520.72,
+            "text": " So I have entered the text here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 249,
+            "start": 520.72,
+            "end": 522.72,
+            "text": " Ideally we will keep it empty"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 250,
+            "start": 522.72,
+            "end": 524.72,
+            "text": " Or we will not give it a new line"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 251,
+            "start": 524.72,
+            "end": 526.72,
+            "text": " So I will paste it here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 252,
+            "start": 526.72,
+            "end": 528.72,
+            "text": " And now it will reach the left side"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 253,
+            "start": 528.72,
+            "end": 530.72,
+            "text": " So it has reached the left side"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 254,
+            "start": 530.78,
+            "end": 532.78,
+            "text": " So enter your comment here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 255,
+            "start": 532.78,
+            "end": 534.78,
+            "text": " And any user can put their comment here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 256,
+            "start": 534.78,
+            "end": 536.78,
+            "text": " Now see I have put the text area"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 257,
+            "start": 536.78,
+            "end": 538.78,
+            "text": " Content here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 258,
+            "start": 538.78,
+            "end": 540.78,
+            "text": " So you don't want to do this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 259,
+            "start": 540.78,
+            "end": 542.78,
+            "text": " You want to keep the text area empty"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 260,
+            "start": 542.78,
+            "end": 544.78,
+            "text": " And you want to put a label"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 261,
+            "start": 544.78,
+            "end": 546.78,
+            "text": " And you can say label for is equal to comment"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 262,
+            "start": 546.78,
+            "end": 548.78,
+            "text": " And definitely we will put the ID here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 263,
+            "start": 548.78,
+            "end": 550.78,
+            "text": " Whenever we put for"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 264,
+            "start": 550.78,
+            "end": 552.78,
+            "text": " It is inside for"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 265,
+            "start": 552.78,
+            "end": 554.78,
+            "text": " And the element for which it is there is the ID"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 266,
+            "start": 554.78,
+            "end": 556.78,
+            "text": " Now see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 267,
+            "start": 556.78,
+            "end": 558.78,
+            "text": " If I write enter your comment"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 268,
+            "start": 558.8399999999999,
+            "end": 559.8399999999999,
+            "text": " What will happen?"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 269,
+            "start": 559.8399999999999,
+            "end": 561.8399999999999,
+            "text": " If I write enter your comment"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 270,
+            "start": 561.8399999999999,
+            "end": 563.8399999999999,
+            "text": " It will come here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 271,
+            "start": 563.8399999999999,
+            "end": 565.8399999999999,
+            "text": " Now you will say this is not the style"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 272,
+            "start": 565.8399999999999,
+            "end": 567.8399999999999,
+            "text": " So this is not the style"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 273,
+            "start": 567.8399999999999,
+            "end": 569.8399999999999,
+            "text": " Because we will style it with CSS later"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 274,
+            "start": 569.8399999999999,
+            "end": 571.8399999999999,
+            "text": " For now I will just put the br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 275,
+            "start": 571.8399999999999,
+            "end": 573.8399999999999,
+            "text": " But I don't recommend br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 276,
+            "start": 573.8399999999999,
+            "end": 575.8399999999999,
+            "text": " I am telling you again"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 277,
+            "start": 575.8399999999999,
+            "end": 577.8399999999999,
+            "text": " I don't recommend br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 278,
+            "start": 577.8399999999999,
+            "end": 579.8399999999999,
+            "text": " Because br tag causes problems"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 279,
+            "start": 579.8399999999999,
+            "end": 581.8399999999999,
+            "text": " You should know that br tag is a line break tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 280,
+            "start": 581.8399999999999,
+            "end": 583.8399999999999,
+            "text": " So you might be thinking"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 281,
+            "start": 583.8399999999999,
+            "end": 585.8399999999999,
+            "text": " That what is the problem with br tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 282,
+            "start": 585.8399999999999,
+            "end": 587.8399999999999,
+            "text": " But I will tell you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 283,
+            "start": 587.9,
+            "end": 589.9,
+            "text": " I don't recommend it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 284,
+            "start": 589.9,
+            "end": 591.9,
+            "text": " I don't recommend using it all the time"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 285,
+            "start": 591.9,
+            "end": 593.9,
+            "text": " I mean people think that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 286,
+            "start": 593.9,
+            "end": 595.9,
+            "text": " They should put br tag and add new spaces"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 287,
+            "start": 595.9,
+            "end": 597.9,
+            "text": " I oppose this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 288,
+            "start": 597.9,
+            "end": 599.9,
+            "text": " So I will copy it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 289,
+            "start": 599.9,
+            "end": 601.9,
+            "text": " And show you the select tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 290,
+            "start": 601.9,
+            "end": 603.9,
+            "text": " And you see here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 291,
+            "start": 603.9,
+            "end": 605.9,
+            "text": " As I put the select tag here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 292,
+            "start": 605.9,
+            "end": 607.9,
+            "text": " I put it inside div"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 293,
+            "start": 607.9,
+            "end": 609.9,
+            "text": " So in select you get some options"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 294,
+            "start": 609.9,
+            "end": 611.9000000000001,
+            "text": " The syntax of select is like this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 295,
+            "start": 611.9000000000001,
+            "end": 613.9000000000001,
+            "text": " Apple, banana, cherry"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 296,
+            "start": 613.9000000000001,
+            "end": 615.9000000000001,
+            "text": " You can use any of them"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 297,
+            "start": 615.9599999999999,
+            "end": 617.9599999999999,
+            "text": " And here I have values equal to apple"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 298,
+            "start": 617.9599999999999,
+            "end": 619.9599999999999,
+            "text": " First I made a select tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 299,
+            "start": 619.9599999999999,
+            "end": 621.9599999999999,
+            "text": " And gave name equal to fruits"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 300,
+            "start": 621.9599999999999,
+            "end": 623.9599999999999,
+            "text": " Then option value is equal to apple"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 301,
+            "start": 623.9599999999999,
+            "end": 625.9599999999999,
+            "text": " Option value is equal to banana"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 302,
+            "start": 625.9599999999999,
+            "end": 627.9599999999999,
+            "text": " Option value is equal to cherry"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 303,
+            "start": 627.9599999999999,
+            "end": 629.9599999999999,
+            "text": " When we will parse this form data"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 304,
+            "start": 629.9599999999999,
+            "end": 631.9599999999999,
+            "text": " I will tell you in the javascript part"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 305,
+            "start": 631.9599999999999,
+            "end": 633.9599999999999,
+            "text": " How to send this data to the server"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 306,
+            "start": 633.9599999999999,
+            "end": 635.9599999999999,
+            "text": " So there are many things about form"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 307,
+            "start": 635.9599999999999,
+            "end": 637.9599999999999,
+            "text": " Which I will tell you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 308,
+            "start": 637.9599999999999,
+            "end": 639.96,
+            "text": " So stay tuned for that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 309,
+            "start": 639.96,
+            "end": 641.96,
+            "text": " So this was about forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 310,
+            "start": 641.96,
+            "end": 643.96,
+            "text": " I wanted to tell you about the elements of forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 311,
+            "start": 644.02,
+            "end": 646.02,
+            "text": " So I have shown you the elements of forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 312,
+            "start": 646.02,
+            "end": 648.02,
+            "text": " In this video"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 313,
+            "start": 648.02,
+            "end": 650.02,
+            "text": " And I have also shown you the select tags"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 314,
+            "start": 650.02,
+            "end": 652.02,
+            "text": " And other things"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 315,
+            "start": 652.02,
+            "end": 654.02,
+            "text": " About the forms"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 316,
+            "start": 654.02,
+            "end": 656.02,
+            "text": " I have told you about the action"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 317,
+            "start": 656.02,
+            "end": 658.02,
+            "text": " You can submit the form on any page"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 318,
+            "start": 658.02,
+            "end": 660.02,
+            "text": " And where it will handle"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 319,
+            "start": 660.02,
+            "end": 662.02,
+            "text": " So you can give that data here"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 320,
+            "start": 662.02,
+            "end": 664.02,
+            "text": " Then there is method of get request or post request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 321,
+            "start": 664.02,
+            "end": 666.02,
+            "text": " I will tell you the difference in these videos"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 322,
+            "start": 666.02,
+            "end": 668.02,
+            "text": " But I have told you in a very rough way"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 323,
+            "start": 668.02,
+            "end": 670.02,
+            "text": " That get request is a very simple request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 324,
+            "start": 670.02,
+            "end": 672.02,
+            "text": " Post request is used when sending big data"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 325,
+            "start": 672.0799999999999,
+            "end": 674.0799999999999,
+            "text": " So you can send a lot of data in this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 326,
+            "start": 674.0799999999999,
+            "end": 676.0799999999999,
+            "text": " We don't even send passwords in get request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 327,
+            "start": 676.0799999999999,
+            "end": 678.0799999999999,
+            "text": " We send it with post request"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 328,
+            "start": 678.0799999999999,
+            "end": 680.0799999999999,
+            "text": " So here I have told you the method"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 329,
+            "start": 680.0799999999999,
+            "end": 682.0799999999999,
+            "text": " What happens in the name"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 330,
+            "start": 682.0799999999999,
+            "end": 684.0799999999999,
+            "text": " Name is equal to username means"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 331,
+            "start": 684.0799999999999,
+            "end": 686.0799999999999,
+            "text": " We mark it with name"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 332,
+            "start": 686.0799999999999,
+            "end": 688.0799999999999,
+            "text": " So the server will know"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 333,
+            "start": 688.0799999999999,
+            "end": 690.0799999999999,
+            "text": " What is the key corresponding value"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 334,
+            "start": 690.0799999999999,
+            "end": 692.0799999999999,
+            "text": " So the key value pair will go to the server"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 335,
+            "start": 692.0799999999999,
+            "end": 694.0799999999999,
+            "text": " According to the name"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 336,
+            "start": 694.0799999999999,
+            "end": 696.0799999999999,
+            "text": " So we will see this when we will do server side processing"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 337,
+            "start": 696.0799999999999,
+            "end": 698.0799999999999,
+            "text": " What is the meaning of placeholder"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 338,
+            "start": 698.0799999999999,
+            "end": 700.0799999999999,
+            "text": " What will be written inside this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 339,
+            "start": 700.14,
+            "end": 702.14,
+            "text": " So here enter your username is placeholder"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 340,
+            "start": 702.14,
+            "end": 704.14,
+            "text": " If I click on this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 341,
+            "start": 704.14,
+            "end": 706.14,
+            "text": " So this enter username is not written in this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 342,
+            "start": 706.14,
+            "end": 708.14,
+            "text": " I will write anything"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 343,
+            "start": 708.14,
+            "end": 710.14,
+            "text": " But enter username is telling me"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 344,
+            "start": 710.14,
+            "end": 712.14,
+            "text": " That I have to put username in this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 345,
+            "start": 712.14,
+            "end": 714.14,
+            "text": " Then required means"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 346,
+            "start": 714.14,
+            "end": 716.14,
+            "text": " You have to require it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 347,
+            "start": 716.14,
+            "end": 718.14,
+            "text": " You have to put value of it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 348,
+            "start": 718.14,
+            "end": 720.14,
+            "text": " Otherwise your form won't be submitted"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 349,
+            "start": 720.14,
+            "end": 722.14,
+            "text": " So we will use this a lot"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 350,
+            "start": 722.14,
+            "end": 724.1400000000001,
+            "text": " Then we have autofocus"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 351,
+            "start": 724.1400000000001,
+            "end": 726.1400000000001,
+            "text": " Autofocus automatically focuses on cursor"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 352,
+            "start": 726.1400000000001,
+            "end": 728.1400000000001,
+            "text": " So I will show you the magic of autofocus"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 353,
+            "start": 728.1999999999999,
+            "end": 730.1999999999999,
+            "text": " So here you have written autofocus in the input tag"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 354,
+            "start": 732.1999999999999,
+            "end": 734.1999999999999,
+            "text": " So I have written autofocus in the username"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 355,
+            "start": 734.1999999999999,
+            "end": 736.1999999999999,
+            "text": " Now I will reload it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 356,
+            "start": 736.1999999999999,
+            "end": 738.1999999999999,
+            "text": " So if I type on it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 357,
+            "start": 738.1999999999999,
+            "end": 740.1999999999999,
+            "text": " Autofocus will automatically focus on it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 358,
+            "start": 740.1999999999999,
+            "end": 742.1999999999999,
+            "text": " So by doing autofocus"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 359,
+            "start": 742.1999999999999,
+            "end": 744.1999999999999,
+            "text": " You will type whatever you want"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 360,
+            "start": 744.1999999999999,
+            "end": 746.1999999999999,
+            "text": " I hope you are understanding these things"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 361,
+            "start": 746.1999999999999,
+            "end": 748.1999999999999,
+            "text": " Now validation attribute"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 362,
+            "start": 748.1999999999999,
+            "end": 750.1999999999999,
+            "text": " Required I have told you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 363,
+            "start": 750.1999999999999,
+            "end": 752.2,
+            "text": " You can give pattern"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 364,
+            "start": 752.2,
+            "end": 754.2,
+            "text": " In which you can give regular expression"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 365,
+            "start": 754.2,
+            "end": 756.2,
+            "text": " Now you people don't get confused"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 366,
+            "start": 756.26,
+            "end": 758.26,
+            "text": " I don't know the expression of pattern"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 367,
+            "start": 758.26,
+            "end": 760.26,
+            "text": " So I will teach you everything"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 368,
+            "start": 760.26,
+            "end": 762.26,
+            "text": " But you have to understand"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 369,
+            "start": 762.26,
+            "end": 764.26,
+            "text": " That we will accept a particular pattern"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 370,
+            "start": 764.26,
+            "end": 766.26,
+            "text": " If we put pattern is equal to this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 371,
+            "start": 766.26,
+            "end": 768.26,
+            "text": " Then you can't put anything apart from this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 372,
+            "start": 768.26,
+            "end": 770.26,
+            "text": " So you should know this"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 373,
+            "start": 770.26,
+            "end": 772.26,
+            "text": " So I hope you are enjoying this video"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 374,
+            "start": 772.26,
+            "end": 774.26,
+            "text": " And along with that"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 375,
+            "start": 774.26,
+            "end": 776.26,
+            "text": " Please write sigma batch op in the comment section"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 376,
+            "start": 776.26,
+            "end": 778.26,
+            "text": " And in the first video"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 377,
+            "start": 778.26,
+            "end": 780.26,
+            "text": " Please review this course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 378,
+            "start": 780.26,
+            "end": 782.26,
+            "text": " Because still many people ask me"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 379,
+            "start": 782.26,
+            "end": 784.26,
+            "text": " Should I do this course or not"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 380,
+            "start": 784.3199999999999,
+            "end": 786.3199999999999,
+            "text": " Because this is a free course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 381,
+            "start": 786.3199999999999,
+            "end": 788.3199999999999,
+            "text": " So people don't value it"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 382,
+            "start": 788.3199999999999,
+            "end": 790.3199999999999,
+            "text": " So should I watch this course or take paid course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 383,
+            "start": 790.3199999999999,
+            "end": 792.3199999999999,
+            "text": " And I would like to give a note"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 384,
+            "start": 792.3199999999999,
+            "end": 794.3199999999999,
+            "text": " To those people who asked me"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 385,
+            "start": 794.3199999999999,
+            "end": 796.3199999999999,
+            "text": " To take paid course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 386,
+            "start": 796.3199999999999,
+            "end": 798.3199999999999,
+            "text": " Should I collect the money"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 387,
+            "start": 798.3199999999999,
+            "end": 800.3199999999999,
+            "text": " Or should I join sigma batch"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 388,
+            "start": 800.3199999999999,
+            "end": 802.3199999999999,
+            "text": " You should join sigma batch"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 389,
+            "start": 802.3199999999999,
+            "end": 804.3199999999999,
+            "text": " Because I don't think"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 390,
+            "start": 804.3199999999999,
+            "end": 806.3199999999999,
+            "text": " I need to tell you the quality of this course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 391,
+            "start": 806.3199999999999,
+            "end": 808.3199999999999,
+            "text": " So you should join this course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 392,
+            "start": 808.3199999999999,
+            "end": 810.3199999999999,
+            "text": " You will get everything"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 393,
+            "start": 810.3199999999999,
+            "end": 812.3199999999999,
+            "text": " I am telling you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 394,
+            "start": 812.38,
+            "end": 814.38,
+            "text": " I am telling you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 395,
+            "start": 814.38,
+            "end": 816.38,
+            "text": " I was going to sell this course for 10,000"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 396,
+            "start": 816.38,
+            "end": 818.38,
+            "text": " Yes that was the amount"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 397,
+            "start": 818.38,
+            "end": 820.38,
+            "text": " I was going to sell this course for 10,000"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 398,
+            "start": 820.38,
+            "end": 822.38,
+            "text": " And I think there is nothing wrong in selling any course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 399,
+            "start": 822.38,
+            "end": 824.38,
+            "text": " If anyone is selling"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 400,
+            "start": 824.38,
+            "end": 826.38,
+            "text": " There is nothing wrong in selling any course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 401,
+            "start": 826.38,
+            "end": 828.38,
+            "text": " But the thing is"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 402,
+            "start": 828.38,
+            "end": 830.38,
+            "text": " If you have bought any other course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 403,
+            "start": 830.38,
+            "end": 832.38,
+            "text": " And you still feel that sigma is a great course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 404,
+            "start": 832.38,
+            "end": 834.38,
+            "text": " Then you should join"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 405,
+            "start": 834.38,
+            "end": 836.3800000000001,
+            "text": " Because if you make a career"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 406,
+            "start": 836.3800000000001,
+            "end": 838.3800000000001,
+            "text": " You won't need any of these things"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 407,
+            "start": 838.3800000000001,
+            "end": 840.3800000000001,
+            "text": " If you will look back in the future"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 408,
+            "start": 840.4399999999999,
+            "end": 842.4399999999999,
+            "text": " You will also say"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 409,
+            "start": 842.4399999999999,
+            "end": 844.4399999999999,
+            "text": " Yes we took a paid course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 410,
+            "start": 844.4399999999999,
+            "end": 846.4399999999999,
+            "text": " And then we took a free course"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 411,
+            "start": 846.4399999999999,
+            "end": 848.4399999999999,
+            "text": " And if you make a career"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 412,
+            "start": 848.4399999999999,
+            "end": 850.4399999999999,
+            "text": " Then all these things won't matter in the future"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 413,
+            "start": 850.4399999999999,
+            "end": 852.4399999999999,
+            "text": " So do what is right for you"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 414,
+            "start": 852.4399999999999,
+            "end": 854.4399999999999,
+            "text": " And do your work"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 415,
+            "start": 854.4399999999999,
+            "end": 856.4399999999999,
+            "text": " I hope you are understanding things"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 416,
+            "start": 856.4399999999999,
+            "end": 858.4399999999999,
+            "text": " So like the video"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 417,
+            "start": 858.4399999999999,
+            "end": 860.4399999999999,
+            "text": " Access the playlist"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 418,
+            "start": 860.4399999999999,
+            "end": 862.4399999999999,
+            "text": " Subscribe to the channel"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 419,
+            "start": 862.4399999999999,
+            "end": 864.44,
+            "text": " And in the comment section"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 420,
+            "start": 864.44,
+            "end": 866.44,
+            "text": " Write sigma batch op"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 421,
+            "start": 866.44,
+            "end": 868.44,
+            "text": " That's it for this video"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML",
+            "id": 422,
+            "start": 868.44,
+            "end": 870.5,
+            "text": " And I will see you next time"
+        }
+    ],
+    "text": " In this video, we will know what are the forms and what is the input tag in the form Using the form is an important element of websites because you submit data from client to server through the form These are the forms which you see on contact pages, google forms or enquiry forms The date and time on the flight or railway ticket, where to go and where to go, all these details are submitted through the HTML forms In the last video, very few people liked it I will request you to like this video with high energy So that we can maintain high energy throughout the course So let's go to the computer screen and see the forms, input tags and some best practices Let's roll the intro So guys, I have come to my computer screen And now see I am going to make a folder here quickly I am going to name this video video6 Because this is the 6th video, I will click on shift right and open with code I have already told you all about this And here I am going to make index.html And by putting an exclamation mark in it I will do a view word wrap, turn on the screen cast mode And you see here I will write forms Let's learn it So I have set the title of this forms page And what happens by setting the title? The title will be shown on our page Here I want to tell you about a very important setting Show preview Some of you have pointed out in the comments that You have to click so many times, can you do it? Yes you can, click on gear and then on settings And after clicking on settings You can simply write live preview And we can actually set it Such that whenever we click on it It will open on the external browser So now I will close everything And as soon as I click on it It will open on the external browser And I will come to my browser And the sigma web development codes playlist You can access it on the new clicker's star And here on the bookmark But now I want to tell you As soon as we click here You will see it has opened So if you want it to be like this But sometimes you will want to prefer side by side view And when you want to do that When you are actually using HTML, CSS And working on design So whenever you are working on design You definitely want to see live previews So that's why this extension was made And it was made different from live server So that you can see previews on the side Now what we will do here We will learn about forms What is a form? You know the name form It's a railway form We fill it and our reservation is done Along with that we fill the form of IIT JEE We fill the form of NEET We fill the form of any exam So that our data can reach those who want it So this is a form HTML is a form tag So you will enter the form And it will ask you the first question What is the action of your form Get or Post Let me tell you a quick difference Between Get request and Post request We will see this later When we will read the back end Get request is a very simple request And we send the post request In most of the cases When we have to give a lot of data For example, whenever our form is posted We will use the post request in most of the cases And what is a get request It's a very simple request That we just have to tell the server And that's it Or we have to hit the server with a request That's it But if you still don't understand this That should be fine No problem Because we will do this in detail later So form action is equal to post I have written it here Now I can show you some input tags I will tell you what are the input tags What will be the elements in your form Like you can enter date You can enter the form You can tell the name You can tell the phone number You can tell the age It can be just a number You can put these things in the form So I want to tell you That the input tag You put it in the form And there is a label tag Which is used to label the input So what I will do here The simplest input tag is type is equal to text So I will put the type is equal to text input here And if I zoom out And if I zoom out So here is the input type is equal to text Name is equal to username Placeholder is enter and username Actually it will look like this You can enter your username And the user you are going to enter You have to enter the username I will write an actual And I will write here For example form to apply For sigma web dev ta For sigma web dev ta sigma web development codes ta sigma web development codes ta Suppose we are hiring teaching assistants For sigma web development codes So we can write something like this By the way I have added subtitles If you haven't access the playlist Then do access it And along with that I will show you one more thing So these subtitles are very funny So write sigma batch op and your village land And give your village land So if someone is watching this Or someone who doesn't know Hindi He will say that what happened till here And give your village land to me So you can see here I have put the H1 here Which is our main heading Along with input tag we use label tag Now whose label is this So for is equal to I will write its id For example I will write its id username And for is equal to I will put its id Now what is this id I will tell you this later For now just understand that This is a unique identifier To identify this element Like your Aadhar number is not of anyone else In the same way this id username Is not available to anyone else I will tell you more in detail later So I have written label for is equal to username And you can see here That the label will come So I have not put anything in the label So I will enter Your username And you can see here You will get to see Enter your username And you can enter your expertise Anything Suppose I have to ask what is your gender So I can do something like this And you can see enter your gender And as soon as I do this I can ask you what is this Now what happens here We can wrap this in div Div is our block element And what are inline and block elements I have not told you in this course But I will tell you in the upcoming videos So for now just understand That I am putting this in div to give a new space So as soon as I put this in div It will come in new space Yes there is a br tag But I don't prefer br tag And you will get to know why We don't want to bloat our HTML with br tag You will get to know this in upcoming videos Now you can see here Enter your username Now as soon as I am clicking on female This radio button is selected Why is this happening Because the label I have put for is equal to female And here I have put ID female And along with that Here I have put name is equal to gender In this input tag And name is equal to gender is also in input radio tag And as soon as we have type is equal to radio It means this is radio button And if we have same name Then only one of these can be selected If I select this then it will be this If I select this then it will be this Now I will show you one thing If I make the ID in the label form wrong And here also in the form If I make the ID wrong in the first one Then when I click on the female Then I will see that it is not selected I am clicking on male and it is selected So to select female I have to click here So what I have to do I have to put the ID of for is equal to The input tag So you can see here I have put label for is equal to female Along with that we have an input tag Which is type is equal to checkbox Now see here if I put Type is equal to checkbox I will put this in div And I will do the same as format document This will be very good I mean its formatting and indents Now see here Subscribe to newsletter Here I can check it And the difference between radio button and checkbox Is that you can check the checkbox Here if you want to select Male or female or any option Then you can select it like this After this we have text area And select tag And I will show you that So this is text area and select tag And copy the text area And I will show you the text area So text area input type is equal to Text but it has rows and column attribute Which helps you to make the size smaller Now see here The placeholder inside this Is enter your comment here So I have entered the text here Ideally we will keep it empty Or we will not give it a new line So I will paste it here And now it will reach the left side So it has reached the left side So enter your comment here And any user can put their comment here Now see I have put the text area Content here So you don't want to do this You want to keep the text area empty And you want to put a label And you can say label for is equal to comment And definitely we will put the ID here Whenever we put for It is inside for And the element for which it is there is the ID Now see here If I write enter your comment What will happen? If I write enter your comment It will come here Now you will say this is not the style So this is not the style Because we will style it with CSS later For now I will just put the br tag But I don't recommend br tag I am telling you again I don't recommend br tag Because br tag causes problems You should know that br tag is a line break tag So you might be thinking That what is the problem with br tag But I will tell you I don't recommend it I don't recommend using it all the time I mean people think that They should put br tag and add new spaces I oppose this So I will copy it And show you the select tag And you see here As I put the select tag here I put it inside div So in select you get some options The syntax of select is like this Apple, banana, cherry You can use any of them And here I have values equal to apple First I made a select tag And gave name equal to fruits Then option value is equal to apple Option value is equal to banana Option value is equal to cherry When we will parse this form data I will tell you in the javascript part How to send this data to the server So there are many things about form Which I will tell you So stay tuned for that So this was about forms I wanted to tell you about the elements of forms So I have shown you the elements of forms In this video And I have also shown you the select tags And other things About the forms I have told you about the action You can submit the form on any page And where it will handle So you can give that data here Then there is method of get request or post request I will tell you the difference in these videos But I have told you in a very rough way That get request is a very simple request Post request is used when sending big data So you can send a lot of data in this We don't even send passwords in get request We send it with post request So here I have told you the method What happens in the name Name is equal to username means We mark it with name So the server will know What is the key corresponding value So the key value pair will go to the server According to the name So we will see this when we will do server side processing What is the meaning of placeholder What will be written inside this So here enter your username is placeholder If I click on this So this enter username is not written in this I will write anything But enter username is telling me That I have to put username in this Then required means You have to require it You have to put value of it Otherwise your form won't be submitted So we will use this a lot Then we have autofocus Autofocus automatically focuses on cursor So I will show you the magic of autofocus So here you have written autofocus in the input tag So I have written autofocus in the username Now I will reload it So if I type on it Autofocus will automatically focus on it So by doing autofocus You will type whatever you want I hope you are understanding these things Now validation attribute Required I have told you You can give pattern In which you can give regular expression Now you people don't get confused I don't know the expression of pattern So I will teach you everything But you have to understand That we will accept a particular pattern If we put pattern is equal to this Then you can't put anything apart from this So you should know this So I hope you are enjoying this video And along with that Please write sigma batch op in the comment section And in the first video Please review this course Because still many people ask me Should I do this course or not Because this is a free course So people don't value it So should I watch this course or take paid course And I would like to give a note To those people who asked me To take paid course Should I collect the money Or should I join sigma batch You should join sigma batch Because I don't think I need to tell you the quality of this course So you should join this course You will get everything I am telling you I am telling you I was going to sell this course for 10,000 Yes that was the amount I was going to sell this course for 10,000 And I think there is nothing wrong in selling any course If anyone is selling There is nothing wrong in selling any course But the thing is If you have bought any other course And you still feel that sigma is a great course Then you should join Because if you make a career You won't need any of these things If you will look back in the future You will also say Yes we took a paid course And then we took a free course And if you make a career Then all these things won't matter in the future So do what is right for you And do your work I hope you are understanding things So like the video Access the playlist Subscribe to the channel And in the comment section Write sigma batch op That's it for this video And I will see you next time"
+}

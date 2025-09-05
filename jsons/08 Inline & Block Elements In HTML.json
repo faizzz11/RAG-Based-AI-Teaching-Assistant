@@ -1,0 +1,2293 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 0,
+            "start": 0.0,
+            "end": 3.8000000000000003,
+            "text": " It is very important to learn the concept of inline and block elements in HTML"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 1,
+            "start": 3.8000000000000003,
+            "end": 6.6000000000000005,
+            "text": " Inline elements are those which take only the required width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 2,
+            "start": 6.6000000000000005,
+            "end": 9.96,
+            "text": " Block elements are those which take the entire width of the screen"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 3,
+            "start": 9.96,
+            "end": 13.4,
+            "text": " This is also called display property which can be set through CSS"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 4,
+            "start": 13.4,
+            "end": 16.76,
+            "text": " If you are enjoying this video, then do like this video"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 5,
+            "start": 16.76,
+            "end": 20.04,
+            "text": " So let's go to the computer screen and see inline and block elements closely"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 6,
+            "start": 20.04,
+            "end": 21.92,
+            "text": " Through some very good examples"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 7,
+            "start": 21.92,
+            "end": 23.28,
+            "text": " Let's roll the intro"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 8,
+            "start": 31.0,
+            "end": 35.36,
+            "text": " So guys, it's time to see inline and block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 9,
+            "start": 35.36,
+            "end": 38.76,
+            "text": " If you haven't accessed the playlist and code, then do both"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 10,
+            "start": 38.76,
+            "end": 45.36,
+            "text": " Because as the videos are being made, the code of the videos is being added to the playlist"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 11,
+            "start": 45.36,
+            "end": 50.6,
+            "text": " Now what I will do here is that I will make a folder called video8"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 12,
+            "start": 50.6,
+            "end": 54.6,
+            "text": " I have already added 7 videos here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 13,
+            "start": 54.6,
+            "end": 57.760000000000005,
+            "text": " I will make a video8 and open it in VS Code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 14,
+            "start": 57.76,
+            "end": 65.36,
+            "text": " After opening VS Code, I will make an index.html and tell you about index and block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 15,
+            "start": 65.36,
+            "end": 68.24,
+            "text": " I have entered with an exclamation mark and I could have typed this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 16,
+            "start": 68.24,
+            "end": 71.24,
+            "text": " But I won't because I can't type this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 17,
+            "start": 71.24,
+            "end": 74.44,
+            "text": " I will write inline and block elements here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 18,
+            "start": 74.44,
+            "end": 76.44,
+            "text": " I have told you a little bit about this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 19,
+            "start": 76.44,
+            "end": 82.36,
+            "text": " But I will tell you in detail about inline elements and why I want to use them"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 20,
+            "start": 82.36,
+            "end": 87.12,
+            "text": " Inline elements are those which take only the required width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 21,
+            "start": 87.12,
+            "end": 89.12,
+            "text": " Don't block elements take the required width?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 22,
+            "start": 89.12,
+            "end": 92.4,
+            "text": " No, they say that we need the full width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 23,
+            "start": 92.4,
+            "end": 95.76,
+            "text": " Some people are like that, they just spread and spread"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 24,
+            "start": 95.76,
+            "end": 97.76,
+            "text": " I will tell you the difference"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 25,
+            "start": 97.76,
+            "end": 101.64,
+            "text": " And to explain this difference, I will cheat a little bit"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 26,
+            "start": 101.64,
+            "end": 103.64,
+            "text": " And the cheating is that I will add CSS"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 27,
+            "start": 103.64,
+            "end": 106.64,
+            "text": " You might think that I haven't studied CSS, why am I adding CSS?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 28,
+            "start": 106.64,
+            "end": 110.24000000000001,
+            "text": " I am adding CSS as much as it is necessary"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 29,
+            "start": 110.24000000000001,
+            "end": 112.24000000000001,
+            "text": " And here I will just do one thing"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 30,
+            "start": 112.24,
+            "end": 114.24,
+            "text": " I will write P here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 31,
+            "start": 114.24,
+            "end": 116.24,
+            "text": " I will enter and write here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 32,
+            "start": 116.24,
+            "end": 119.24,
+            "text": " Let us say, hey, I am a para"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 33,
+            "start": 119.24,
+            "end": 123.24,
+            "text": " And I will tell here to give background color to P"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 34,
+            "start": 123.24,
+            "end": 125.24,
+            "text": " Let us say blue"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 35,
+            "start": 125.24,
+            "end": 127.24,
+            "text": " I will give a nice color here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 36,
+            "start": 127.24,
+            "end": 129.24,
+            "text": " You can choose a good color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 37,
+            "start": 129.24,
+            "end": 132.24,
+            "text": " Now you can see here I have given a color to paragraph"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 38,
+            "start": 132.24,
+            "end": 134.24,
+            "text": " And along with that I will add an anchor tag"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 39,
+            "start": 134.24,
+            "end": 136.24,
+            "text": " href is equal to"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 40,
+            "start": 136.24,
+            "end": 138.24,
+            "text": " Google.com let us say"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 41,
+            "start": 138.24,
+            "end": 140.24,
+            "text": " I will have to add HTTPS"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 42,
+            "start": 140.24,
+            "end": 142.24,
+            "text": " Then it will go to Google.com"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 43,
+            "start": 142.24,
+            "end": 144.24,
+            "text": " And I will write Google"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 44,
+            "start": 144.24,
+            "end": 146.24,
+            "text": " And the anchor tag"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 45,
+            "start": 146.24,
+            "end": 148.24,
+            "text": " I will give background color red"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 46,
+            "start": 148.24,
+            "end": 150.24,
+            "text": " But not red, I will do hover"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 47,
+            "start": 150.24,
+            "end": 156.24,
+            "text": " And this way I can choose any color in the spectrum"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 48,
+            "start": 156.24,
+            "end": 158.24,
+            "text": " How did you like Ninja Tagging?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 49,
+            "start": 158.24,
+            "end": 160.24,
+            "text": " Let me know in the comment section below"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 50,
+            "start": 160.24,
+            "end": 162.24,
+            "text": " If you already knew about Ninja Tagging, then comment"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 51,
+            "start": 162.24,
+            "end": 164.24,
+            "text": " I am already a ninja"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 52,
+            "start": 164.24,
+            "end": 166.24,
+            "text": " So comment here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 53,
+            "start": 166.24,
+            "end": 168.24,
+            "text": " This is very important"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 54,
+            "start": 168.24,
+            "end": 170.24,
+            "text": " I have given anchor tag to background color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 55,
+            "start": 170.24,
+            "end": 172.24,
+            "text": " And I have made it similar"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 56,
+            "start": 172.24,
+            "end": 174.24,
+            "text": " Let me change it to reddish"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 57,
+            "start": 174.24,
+            "end": 176.24,
+            "text": " I have changed it to red orange"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 58,
+            "start": 176.24,
+            "end": 178.24,
+            "text": " And this is blue"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 59,
+            "start": 178.24,
+            "end": 180.24,
+            "text": " Now you can see the difference"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 60,
+            "start": 180.24,
+            "end": 182.24,
+            "text": " I will click here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 61,
+            "start": 182.24,
+            "end": 184.24,
+            "text": " And as I click here, you can see"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 62,
+            "start": 184.24,
+            "end": 186.24,
+            "text": " This background color is found in width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 63,
+            "start": 186.24,
+            "end": 188.24,
+            "text": " But this is found only in the element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 64,
+            "start": 188.24,
+            "end": 190.24,
+            "text": " Why did this happen?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 65,
+            "start": 190.24,
+            "end": 192.24,
+            "text": " This is because this is paragraph block element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 66,
+            "start": 192.24,
+            "end": 194.24,
+            "text": " And our anchor tag is inline element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 67,
+            "start": 194.24,
+            "end": 196.24,
+            "text": " Inline elements take only the same space"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 68,
+            "start": 196.24,
+            "end": 198.24,
+            "text": " Block elements take the same width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 69,
+            "start": 198.24,
+            "end": 200.24,
+            "text": " And the next content comes below them"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 70,
+            "start": 200.24,
+            "end": 202.24,
+            "text": " When we take the width, the next content will come below them"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 71,
+            "start": 202.24,
+            "end": 204.24,
+            "text": " Along with that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 72,
+            "start": 204.24,
+            "end": 206.24,
+            "text": " If I talk about div"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 73,
+            "start": 206.24,
+            "end": 208.24,
+            "text": " What is that?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 74,
+            "start": 208.24,
+            "end": 210.24,
+            "text": " I am a block element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 75,
+            "start": 210.24,
+            "end": 212.24,
+            "text": " And span is"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 76,
+            "start": 212.24,
+            "end": 214.24,
+            "text": " Which is like div"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 77,
+            "start": 214.24,
+            "end": 216.24,
+            "text": " But it is an inline element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 78,
+            "start": 216.24,
+            "end": 218.24,
+            "text": " I am span and I am inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 79,
+            "start": 218.24,
+            "end": 220.24,
+            "text": " And after this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 80,
+            "start": 220.24,
+            "end": 222.24,
+            "text": " If I put an anchor tag"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 81,
+            "start": 222.24,
+            "end": 224.24,
+            "text": " And write yes he is inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 82,
+            "start": 224.24,
+            "end": 226.24,
+            "text": " Then what happened?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 83,
+            "start": 226.24,
+            "end": 228.24,
+            "text": " Let me show you the code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 84,
+            "start": 228.24,
+            "end": 230.24,
+            "text": " If I write it in a new line"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 85,
+            "start": 230.24,
+            "end": 232.24,
+            "text": " Let me tell you how many spaces I can give"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 86,
+            "start": 232.24,
+            "end": 234.24,
+            "text": " This will not be added in my content"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 87,
+            "start": 234.24,
+            "end": 236.24,
+            "text": " Because HTML has more than one space"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 88,
+            "start": 236.24,
+            "end": 238.24,
+            "text": " And it doesn't include it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 89,
+            "start": 238.24,
+            "end": 240.24,
+            "text": " If you want to give spaces"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 90,
+            "start": 240.24,
+            "end": 242.24,
+            "text": " You can write ampersand nbsp"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 91,
+            "start": 242.24,
+            "end": 244.24,
+            "text": " I will tell you about that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 92,
+            "start": 244.24,
+            "end": 246.24,
+            "text": " But now I want to show you"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 93,
+            "start": 246.24,
+            "end": 248.24,
+            "text": " How this works"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 94,
+            "start": 248.24,
+            "end": 250.24,
+            "text": " So what happened?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 95,
+            "start": 250.24,
+            "end": 252.24,
+            "text": " I wrote I am a paragraph"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 96,
+            "start": 252.24,
+            "end": 254.24,
+            "text": " And the next content will come below them"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 97,
+            "start": 254.24,
+            "end": 256.24,
+            "text": " I wrote ahrf is equal to this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 98,
+            "start": 256.24,
+            "end": 258.24,
+            "text": " So it took only the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 99,
+            "start": 258.24,
+            "end": 260.24,
+            "text": " But the next content"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 100,
+            "start": 260.24,
+            "end": 262.24,
+            "text": " Was saying that I need the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 101,
+            "start": 262.24,
+            "end": 264.24,
+            "text": " So it will not come here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 102,
+            "start": 264.24,
+            "end": 266.24,
+            "text": " It will come in the next line"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 103,
+            "start": 266.24,
+            "end": 268.24,
+            "text": " Because it says I need the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 104,
+            "start": 268.24,
+            "end": 270.24,
+            "text": " So it will come in the next line"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 105,
+            "start": 270.24,
+            "end": 272.24,
+            "text": " Google is also taking width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 106,
+            "start": 272.24,
+            "end": 274.24,
+            "text": " So it will take the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 107,
+            "start": 274.24,
+            "end": 276.24,
+            "text": " If I give it a background color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 108,
+            "start": 276.24,
+            "end": 278.24,
+            "text": " It will be visible in the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 109,
+            "start": 278.24,
+            "end": 280.24,
+            "text": " Let me give it a background color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 110,
+            "start": 280.24,
+            "end": 282.24,
+            "text": " Let me give it a background color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 111,
+            "start": 282.24,
+            "end": 284.24,
+            "text": " Yellow"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 112,
+            "start": 284.24,
+            "end": 286.24,
+            "text": " It took the width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 113,
+            "start": 286.24,
+            "end": 288.24,
+            "text": " Along with that, I can keep the span"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 114,
+            "start": 288.24,
+            "end": 290.24,
+            "text": " And anchor tag in one line"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 115,
+            "start": 290.24,
+            "end": 292.24,
+            "text": " Because it is an inline element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 116,
+            "start": 292.24,
+            "end": 294.24,
+            "text": " So it takes the same width as inline element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 117,
+            "start": 294.24,
+            "end": 296.24,
+            "text": " And it gives the chance"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 118,
+            "start": 296.24,
+            "end": 298.24,
+            "text": " To give more elements in its own width"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 119,
+            "start": 298.24,
+            "end": 300.24,
+            "text": " Like you saw here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 120,
+            "start": 300.24,
+            "end": 302.24,
+            "text": " This span gave the chance to anchor tag"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 121,
+            "start": 302.24,
+            "end": 304.24,
+            "text": " Will the anchor tag always be inline?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 122,
+            "start": 304.24,
+            "end": 306.24,
+            "text": " Will the paragraph always be blocked?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 123,
+            "start": 306.24,
+            "end": 308.24,
+            "text": " Will this always be there?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 124,
+            "start": 308.24,
+            "end": 310.24,
+            "text": " The answer is no"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 125,
+            "start": 310.24,
+            "end": 312.24,
+            "text": " You can change it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 126,
+            "start": 312.24,
+            "end": 314.24,
+            "text": " You can set the display property"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 127,
+            "start": 314.24,
+            "end": 316.24,
+            "text": " Of any element from CSS"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 128,
+            "start": 316.24,
+            "end": 318.24,
+            "text": " And if you set the display property"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 129,
+            "start": 318.24,
+            "end": 320.24,
+            "text": " It is not necessary that it will be inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 130,
+            "start": 320.24,
+            "end": 322.24,
+            "text": " It can also be blocked"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 131,
+            "start": 322.24,
+            "end": 324.24,
+            "text": " And the block element will be blocked"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 132,
+            "start": 324.24,
+            "end": 326.24,
+            "text": " It can also be inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 133,
+            "start": 326.24,
+            "end": 328.24,
+            "text": " We'll see this in CSS"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 134,
+            "start": 328.24,
+            "end": 330.24,
+            "text": " I want to pinpoint something"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 135,
+            "start": 330.24,
+            "end": 332.24,
+            "text": " The forms video was video 7"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 136,
+            "start": 332.24,
+            "end": 334.24,
+            "text": " But I have put it in the video 6 folder"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 137,
+            "start": 334.24,
+            "end": 336.24,
+            "text": " So I'll call it video 7"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 138,
+            "start": 336.24,
+            "end": 338.24,
+            "text": " What we are doing now is video 8"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 139,
+            "start": 338.24,
+            "end": 340.24,
+            "text": " And there is nothing in video 7"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 140,
+            "start": 340.24,
+            "end": 342.24,
+            "text": " So I'll quickly structure it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 141,
+            "start": 342.24,
+            "end": 344.24,
+            "text": " Don't worry about that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 142,
+            "start": 344.24,
+            "end": 346.24,
+            "text": " I hope you are getting good learnings"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 143,
+            "start": 346.24,
+            "end": 348.24,
+            "text": " Many people pointed this in the comments"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 144,
+            "start": 348.24,
+            "end": 350.24,
+            "text": " I'll fix it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 145,
+            "start": 350.24,
+            "end": 352.24,
+            "text": " But I think that doesn't affect us"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 146,
+            "start": 352.24,
+            "end": 354.24,
+            "text": " Because you are getting it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 147,
+            "start": 354.24,
+            "end": 356.24,
+            "text": " And the source code folder"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 148,
+            "start": 356.24,
+            "end": 358.24,
+            "text": " You'll get it right"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 149,
+            "start": 358.24,
+            "end": 360.24,
+            "text": " Along with that, go to codewitharri.com"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 150,
+            "start": 360.24,
+            "end": 362.24,
+            "text": " Click on notes and download notes"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 151,
+            "start": 362.24,
+            "end": 364.24,
+            "text": " And it will become a complimentary source"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 152,
+            "start": 364.24,
+            "end": 366.24,
+            "text": " I'm explaining everything step by step"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 153,
+            "start": 366.24,
+            "end": 368.24,
+            "text": " So don't worry about that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 154,
+            "start": 368.24,
+            "end": 370.24,
+            "text": " So this was our inline and block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 155,
+            "start": 370.24,
+            "end": 372.24,
+            "text": " Which elements are inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 156,
+            "start": 372.24,
+            "end": 374.24,
+            "text": " And which blocks are inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 157,
+            "start": 374.24,
+            "end": 376.24,
+            "text": " How will you know"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 158,
+            "start": 376.24,
+            "end": 378.24,
+            "text": " Div is block and span is inline"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 159,
+            "start": 378.24,
+            "end": 380.24,
+            "text": " So this comes with practice"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 160,
+            "start": 380.24,
+            "end": 382.24,
+            "text": " But I have made a comprehensive list"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 161,
+            "start": 382.24,
+            "end": 384.24,
+            "text": " Of inline and block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 162,
+            "start": 384.24,
+            "end": 386.24,
+            "text": " Here is the list of block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 163,
+            "start": 386.24,
+            "end": 388.24,
+            "text": " In which I have written the most commonly used elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 164,
+            "start": 388.24,
+            "end": 390.24,
+            "text": " Like div is the most used"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 165,
+            "start": 390.24,
+            "end": 392.24,
+            "text": " Then there is paragraph"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 166,
+            "start": 392.24,
+            "end": 394.24,
+            "text": " And you'll get some elements which are not used"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 167,
+            "start": 394.24,
+            "end": 396.24,
+            "text": " Maybe you don't know about them"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 168,
+            "start": 396.24,
+            "end": 398.24,
+            "text": " But you'll know about them in the future"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 169,
+            "start": 398.24,
+            "end": 400.24,
+            "text": " And it's not possible for me to tell you all the elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 170,
+            "start": 400.24,
+            "end": 402.24,
+            "text": " So you guys should do some self-learning"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 171,
+            "start": 402.24,
+            "end": 404.24,
+            "text": " Definitely there are many elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 172,
+            "start": 404.24,
+            "end": 406.24,
+            "text": " Which will be of very little use"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 173,
+            "start": 406.24,
+            "end": 408.24,
+            "text": " But you'll see the most commonly used"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 174,
+            "start": 408.24,
+            "end": 410.24,
+            "text": " Then I have made a list of inline elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 175,
+            "start": 410.24,
+            "end": 412.24,
+            "text": " So you can refer to this comprehensive list"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 176,
+            "start": 412.24,
+            "end": 414.24,
+            "text": " Here I have made a file"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 177,
+            "start": 414.24,
+            "end": 416.24,
+            "text": " With the name comprehensivelist.txt"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 178,
+            "start": 416.24,
+            "end": 418.24,
+            "text": " So you can refer to this file"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 179,
+            "start": 418.24,
+            "end": 420.24,
+            "text": " Along with that, friends"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 180,
+            "start": 420.24,
+            "end": 422.24,
+            "text": " You shouldn't have any unnecessary space in your code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 181,
+            "start": 422.24,
+            "end": 424.24,
+            "text": " As I told you that this space is not parsed"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 182,
+            "start": 424.24,
+            "end": 426.24,
+            "text": " In fact, if you right click and"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 183,
+            "start": 426.24,
+            "end": 428.24,
+            "text": " Do the format document"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 184,
+            "start": 428.24,
+            "end": 430.24,
+            "text": " Then your document will be formatted"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 185,
+            "start": 430.24,
+            "end": 432.24,
+            "text": " Write the code well"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 186,
+            "start": 432.24,
+            "end": 434.24,
+            "text": " So that when your grandchild opens"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 187,
+            "start": 434.24,
+            "end": 436.24,
+            "text": " Your Zankheela laptop"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 188,
+            "start": 436.24,
+            "end": 438.24,
+            "text": " And he gets this code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 189,
+            "start": 438.24,
+            "end": 440.24,
+            "text": " Then he'll say that grandfather used to write good code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 190,
+            "start": 440.24,
+            "end": 442.24,
+            "text": " Don't say that grandfather used to write like this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 191,
+            "start": 442.24,
+            "end": 444.24,
+            "text": " Then grandfather used to write like this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 192,
+            "start": 444.24,
+            "end": 446.24,
+            "text": " Then grandfather used to write like this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 193,
+            "start": 446.24,
+            "end": 448.24,
+            "text": " So you'll want to remember it in good words"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 194,
+            "start": 448.24,
+            "end": 450.24,
+            "text": " So write your code well"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 195,
+            "start": 450.24,
+            "end": 452.24,
+            "text": " So that your grandchild"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 196,
+            "start": 452.24,
+            "end": 454.24,
+            "text": " Can tell you good things"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 197,
+            "start": 454.24,
+            "end": 456.24,
+            "text": " Now here through HTML comments"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 198,
+            "start": 456.24,
+            "end": 458.24,
+            "text": " I want to give you a quiz"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 199,
+            "start": 458.24,
+            "end": 460.24,
+            "text": " And what is this quiz?"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 200,
+            "start": 460.24,
+            "end": 462.24,
+            "text": " Without using brtag, write a vertically aligned form"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 201,
+            "start": 462.24,
+            "end": 464.24,
+            "text": " Asking for name city"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 202,
+            "start": 464.24,
+            "end": 466.24,
+            "text": " And I have added one more thing here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 203,
+            "start": 466.24,
+            "end": 468.24,
+            "text": " I'll show you, I'll turn on the word wrap"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 204,
+            "start": 468.24,
+            "end": 470.24,
+            "text": " Now here see, name city and pin code of a user"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 205,
+            "start": 470.24,
+            "end": 472.24,
+            "text": " So write a form which we read in the last video"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 206,
+            "start": 472.24,
+            "end": 474.24,
+            "text": " About the form"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 207,
+            "start": 474.24,
+            "end": 476.24,
+            "text": " You have to write this form"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 208,
+            "start": 476.24,
+            "end": 478.24,
+            "text": " And along with that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 209,
+            "start": 478.24,
+            "end": 480.24,
+            "text": " I want everyone to answer this quiz"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 210,
+            "start": 480.24,
+            "end": 482.24,
+            "text": " In the comment section"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 211,
+            "start": 482.24,
+            "end": 484.24,
+            "text": " This is our first quiz"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 212,
+            "start": 484.24,
+            "end": 486.24,
+            "text": " So I want you to make a two way interaction"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 213,
+            "start": 486.24,
+            "end": 488.24,
+            "text": " Write your code in the comment section"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 214,
+            "start": 488.24,
+            "end": 490.24,
+            "text": " And tell me"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 215,
+            "start": 490.24,
+            "end": 492.24,
+            "text": " Which element you used"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 216,
+            "start": 492.24,
+            "end": 494.24,
+            "text": " Online element, if yes"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 217,
+            "start": 494.24,
+            "end": 496.24,
+            "text": " Which block element"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 218,
+            "start": 496.24,
+            "end": 498.24,
+            "text": " You can tell me your explanation"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 219,
+            "start": 498.24,
+            "end": 500.24,
+            "text": " In the comment section"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 220,
+            "start": 500.24,
+            "end": 502.24,
+            "text": " In the coming videos we'll see"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 221,
+            "start": 502.24,
+            "end": 504.24,
+            "text": " How you can use inline flex"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 222,
+            "start": 504.24,
+            "end": 506.24,
+            "text": " Inline block, this type of display properties"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 223,
+            "start": 506.24,
+            "end": 508.24,
+            "text": " And what is the difference"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 224,
+            "start": 508.24,
+            "end": 510.24,
+            "text": " So we'll see all these things in the coming videos"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 225,
+            "start": 510.24,
+            "end": 512.24,
+            "text": " I want to tell you guys"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 226,
+            "start": 512.24,
+            "end": 514.24,
+            "text": " If you are following this course"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 227,
+            "start": 514.24,
+            "end": 516.24,
+            "text": " You'll become a great web developer"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 228,
+            "start": 516.24,
+            "end": 518.24,
+            "text": " And don't think that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 229,
+            "start": 518.24,
+            "end": 520.24,
+            "text": " Videos are long and our hustle is going on"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 230,
+            "start": 520.24,
+            "end": 522.24,
+            "text": " I want you to be beginner friendly"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 231,
+            "start": 522.24,
+            "end": 524.24,
+            "text": " Whatever course I'm making"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 232,
+            "start": 524.24,
+            "end": 526.24,
+            "text": " Along with that I want to tell you"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 233,
+            "start": 526.24,
+            "end": 528.24,
+            "text": " That in life people will tell you"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 234,
+            "start": 528.24,
+            "end": 530.24,
+            "text": " That you are doing this, we are doing this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 235,
+            "start": 530.24,
+            "end": 532.24,
+            "text": " You are studying, you are doing this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 236,
+            "start": 532.24,
+            "end": 534.24,
+            "text": " What is something that people will never tell you"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 237,
+            "start": 534.24,
+            "end": 536.24,
+            "text": " That you are blessed"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 238,
+            "start": 536.24,
+            "end": 538.24,
+            "text": " No one will tell you that you got"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 239,
+            "start": 538.24,
+            "end": 540.24,
+            "text": " Sigma Web Development course"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 240,
+            "start": 540.24,
+            "end": 542.24,
+            "text": " You are living in a time where"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 241,
+            "start": 542.24,
+            "end": 544.24,
+            "text": " You are getting such a good comprehensive course"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 242,
+            "start": 544.24,
+            "end": 546.24,
+            "text": " You are blessed"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 243,
+            "start": 546.24,
+            "end": 548.24,
+            "text": " People will say that I'm going to watch a movie"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 244,
+            "start": 548.24,
+            "end": 550.24,
+            "text": " You are so boring"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 245,
+            "start": 550.24,
+            "end": 552.24,
+            "text": " People will tell you this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 246,
+            "start": 552.24,
+            "end": 554.24,
+            "text": " But no one will tell you that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 247,
+            "start": 554.24,
+            "end": 556.24,
+            "text": " You are blessed to find this course"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 248,
+            "start": 556.24,
+            "end": 558.24,
+            "text": " And you are blessed that you are watching"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 249,
+            "start": 558.24,
+            "end": 560.24,
+            "text": " And you are blessed that you are not getting distracted"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 250,
+            "start": 560.24,
+            "end": 562.24,
+            "text": " And in the time when you will look back"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 251,
+            "start": 562.24,
+            "end": 564.24,
+            "text": " You will realize that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 252,
+            "start": 564.24,
+            "end": 566.24,
+            "text": " I'm so blessed"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 253,
+            "start": 566.24,
+            "end": 568.24,
+            "text": " I'm so blessed that I studied in IIT JEE"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 254,
+            "start": 568.24,
+            "end": 570.24,
+            "text": " I took out IIT JEE"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 255,
+            "start": 570.24,
+            "end": 572.24,
+            "text": " So many things happened"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 256,
+            "start": 572.24,
+            "end": 574.24,
+            "text": " So no one will tell you this"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 257,
+            "start": 574.24,
+            "end": 576.24,
+            "text": " No one will tell you that it's worth the sacrifice"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 258,
+            "start": 576.24,
+            "end": 578.24,
+            "text": " That you are doing"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 259,
+            "start": 578.24,
+            "end": 580.24,
+            "text": " I'm telling you that all the people who got success"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 260,
+            "start": 580.24,
+            "end": 582.24,
+            "text": " They have sacrificed their lives"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 261,
+            "start": 582.24,
+            "end": 584.24,
+            "text": " Take any name"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 262,
+            "start": 584.24,
+            "end": 586.24,
+            "text": " They have sacrificed their lives"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 263,
+            "start": 586.24,
+            "end": 588.24,
+            "text": " And people will never tell you that"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 264,
+            "start": 588.24,
+            "end": 590.24,
+            "text": " Keep working hard"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 265,
+            "start": 590.24,
+            "end": 592.24,
+            "text": " Don't think that you are missing out"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 266,
+            "start": 592.24,
+            "end": 594.24,
+            "text": " Everything happens"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 267,
+            "start": 594.24,
+            "end": 596.24,
+            "text": " I should have got this advice"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 268,
+            "start": 596.24,
+            "end": 598.24,
+            "text": " 4-500 rupees note"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 269,
+            "start": 598.24,
+            "end": 600.24,
+            "text": " But no problem"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 270,
+            "start": 600.24,
+            "end": 602.24,
+            "text": " I will add a color in the span"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 271,
+            "start": 602.24,
+            "end": 604.24,
+            "text": " So I will write span"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 272,
+            "start": 604.24,
+            "end": 606.24,
+            "text": " And I will add background color"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 273,
+            "start": 606.24,
+            "end": 608.24,
+            "text": " I will add blue-violet"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 274,
+            "start": 608.24,
+            "end": 610.24,
+            "text": " I will reduce it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 275,
+            "start": 610.24,
+            "end": 612.24,
+            "text": " By hovering"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 276,
+            "start": 612.24,
+            "end": 614.24,
+            "text": " And if you see here"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 277,
+            "start": 614.24,
+            "end": 616.24,
+            "text": " It has highlighted it"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 278,
+            "start": 616.24,
+            "end": 618.24,
+            "text": " So that's it for this video"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 279,
+            "start": 618.24,
+            "end": 620.24,
+            "text": " I hope you understood the difference"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 280,
+            "start": 620.24,
+            "end": 622.24,
+            "text": " In line of block elements"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 281,
+            "start": 622.24,
+            "end": 624.24,
+            "text": " Like the video, access the playlist"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 282,
+            "start": 624.24,
+            "end": 626.24,
+            "text": " And please also access the code"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 283,
+            "start": 626.24,
+            "end": 628.24,
+            "text": " Thank you so much for watching this video"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 284,
+            "start": 628.24,
+            "end": 630.24,
+            "text": " And I will see you next time"
+        },
+        {
+            "number": "8",
+            "title": "Inline & Block Elements in HTML",
+            "id": 285,
+            "start": 646.24,
+            "end": 648.24,
+            "text": " Thank you"
+        }
+    ],
+    "text": " It is very important to learn the concept of inline and block elements in HTML Inline elements are those which take only the required width Block elements are those which take the entire width of the screen This is also called display property which can be set through CSS If you are enjoying this video, then do like this video So let's go to the computer screen and see inline and block elements closely Through some very good examples Let's roll the intro So guys, it's time to see inline and block elements If you haven't accessed the playlist and code, then do both Because as the videos are being made, the code of the videos is being added to the playlist Now what I will do here is that I will make a folder called video8 I have already added 7 videos here I will make a video8 and open it in VS Code After opening VS Code, I will make an index.html and tell you about index and block elements I have entered with an exclamation mark and I could have typed this But I won't because I can't type this I will write inline and block elements here I have told you a little bit about this But I will tell you in detail about inline elements and why I want to use them Inline elements are those which take only the required width Don't block elements take the required width? No, they say that we need the full width Some people are like that, they just spread and spread I will tell you the difference And to explain this difference, I will cheat a little bit And the cheating is that I will add CSS You might think that I haven't studied CSS, why am I adding CSS? I am adding CSS as much as it is necessary And here I will just do one thing I will write P here I will enter and write here Let us say, hey, I am a para And I will tell here to give background color to P Let us say blue I will give a nice color here You can choose a good color Now you can see here I have given a color to paragraph And along with that I will add an anchor tag href is equal to Google.com let us say I will have to add HTTPS Then it will go to Google.com And I will write Google And the anchor tag I will give background color red But not red, I will do hover And this way I can choose any color in the spectrum How did you like Ninja Tagging? Let me know in the comment section below If you already knew about Ninja Tagging, then comment I am already a ninja So comment here This is very important I have given anchor tag to background color And I have made it similar Let me change it to reddish I have changed it to red orange And this is blue Now you can see the difference I will click here And as I click here, you can see This background color is found in width But this is found only in the element Why did this happen? This is because this is paragraph block element And our anchor tag is inline element Inline elements take only the same space Block elements take the same width And the next content comes below them When we take the width, the next content will come below them Along with that If I talk about div What is that? I am a block element And span is Which is like div But it is an inline element I am span and I am inline And after this If I put an anchor tag And write yes he is inline Then what happened? Let me show you the code If I write it in a new line Let me tell you how many spaces I can give This will not be added in my content Because HTML has more than one space And it doesn't include it If you want to give spaces You can write ampersand nbsp I will tell you about that But now I want to show you How this works So what happened? I wrote I am a paragraph And the next content will come below them I wrote ahrf is equal to this So it took only the width But the next content Was saying that I need the width So it will not come here It will come in the next line Because it says I need the width So it will come in the next line Google is also taking width So it will take the width If I give it a background color It will be visible in the width Let me give it a background color Let me give it a background color Yellow It took the width Along with that, I can keep the span And anchor tag in one line Because it is an inline element So it takes the same width as inline element And it gives the chance To give more elements in its own width Like you saw here This span gave the chance to anchor tag Will the anchor tag always be inline? Will the paragraph always be blocked? Will this always be there? The answer is no You can change it You can set the display property Of any element from CSS And if you set the display property It is not necessary that it will be inline It can also be blocked And the block element will be blocked It can also be inline We'll see this in CSS I want to pinpoint something The forms video was video 7 But I have put it in the video 6 folder So I'll call it video 7 What we are doing now is video 8 And there is nothing in video 7 So I'll quickly structure it Don't worry about that I hope you are getting good learnings Many people pointed this in the comments I'll fix it But I think that doesn't affect us Because you are getting it And the source code folder You'll get it right Along with that, go to codewitharri.com Click on notes and download notes And it will become a complimentary source I'm explaining everything step by step So don't worry about that So this was our inline and block elements Which elements are inline And which blocks are inline How will you know Div is block and span is inline So this comes with practice But I have made a comprehensive list Of inline and block elements Here is the list of block elements In which I have written the most commonly used elements Like div is the most used Then there is paragraph And you'll get some elements which are not used Maybe you don't know about them But you'll know about them in the future And it's not possible for me to tell you all the elements So you guys should do some self-learning Definitely there are many elements Which will be of very little use But you'll see the most commonly used Then I have made a list of inline elements So you can refer to this comprehensive list Here I have made a file With the name comprehensivelist.txt So you can refer to this file Along with that, friends You shouldn't have any unnecessary space in your code As I told you that this space is not parsed In fact, if you right click and Do the format document Then your document will be formatted Write the code well So that when your grandchild opens Your Zankheela laptop And he gets this code Then he'll say that grandfather used to write good code Don't say that grandfather used to write like this Then grandfather used to write like this Then grandfather used to write like this So you'll want to remember it in good words So write your code well So that your grandchild Can tell you good things Now here through HTML comments I want to give you a quiz And what is this quiz? Without using brtag, write a vertically aligned form Asking for name city And I have added one more thing here I'll show you, I'll turn on the word wrap Now here see, name city and pin code of a user So write a form which we read in the last video About the form You have to write this form And along with that I want everyone to answer this quiz In the comment section This is our first quiz So I want you to make a two way interaction Write your code in the comment section And tell me Which element you used Online element, if yes Which block element You can tell me your explanation In the comment section In the coming videos we'll see How you can use inline flex Inline block, this type of display properties And what is the difference So we'll see all these things in the coming videos I want to tell you guys If you are following this course You'll become a great web developer And don't think that Videos are long and our hustle is going on I want you to be beginner friendly Whatever course I'm making Along with that I want to tell you That in life people will tell you That you are doing this, we are doing this You are studying, you are doing this What is something that people will never tell you That you are blessed No one will tell you that you got Sigma Web Development course You are living in a time where You are getting such a good comprehensive course You are blessed People will say that I'm going to watch a movie You are so boring People will tell you this But no one will tell you that You are blessed to find this course And you are blessed that you are watching And you are blessed that you are not getting distracted And in the time when you will look back You will realize that I'm so blessed I'm so blessed that I studied in IIT JEE I took out IIT JEE So many things happened So no one will tell you this No one will tell you that it's worth the sacrifice That you are doing I'm telling you that all the people who got success They have sacrificed their lives Take any name They have sacrificed their lives And people will never tell you that Keep working hard Don't think that you are missing out Everything happens I should have got this advice 4-500 rupees note But no problem I will add a color in the span So I will write span And I will add background color I will add blue-violet I will reduce it By hovering And if you see here It has highlighted it So that's it for this video I hope you understood the difference In line of block elements Like the video, access the playlist And please also access the code Thank you so much for watching this video And I will see you next time Thank you"
+}
