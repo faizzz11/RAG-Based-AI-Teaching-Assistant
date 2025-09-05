@@ -2,7 +2,7 @@ import whisper
 import os
 import json
 
-model = whisper.load_model("large-v2") #dowloading the whisper model which generates english text from different languages audios too
+model = whisper.load_model("medium") #dowloading the whisper model which generates english text from different languages audios too
 audios = os.listdir("audios")
 
 for audio in audios:
