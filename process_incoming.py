@@ -23,10 +23,21 @@ question_embedding = create_embedding([incoming_query])[0] # creating vector emb
 # print(np.vstack(df["embedding"].values).shape)
 
 similarities = cosine_similarity(np.vstack(df["embedding"].values), [question_embedding]).flatten()
-print(similarities)  # it will give similarity of question with all the chunks  close to 1 will be highest similar and close to 0 will be least similar
+# print(similarities)  # it will give similarity of question with all the chunks  close to 1 will be highest similar and close to 0 will be least similar
 
-max_indx = similarities.argsort()[::-1][0:3] # returns the indices that would sort an array. It does not return the sorted values — it returns the order of indices. so here if we do [::-1] it will reverse the order and [0:3] will give top 3 indices
-print(max_indx)
+top_result = 30
+max_indx = similarities.argsort()[::-1][0:top_result] # returns the indices that would sort an array. It does not return the sorted values — it returns the order of indices. so here if we do [::-1] it will reverse the order and [0:3] will give top 3 indices
+# print(max_indx) # printing top 3 indices
 
 new_df =  df.loc[max_indx]
-print(new_df[["title","number", "id" , "text"]])  # it will give top 3 similar chunk
+# print(new_df[["title","number", "id" , "text"]])  # it will give top 3 similar chunk
+
+for index, item in new_df.iterrows():
+    print(index)
+    print(f"Title: {item['title']}")
+    print(f"Video Number: {item['number']}")
+    print(f"Chunk ID: {item['id']}")
+    print(f"Text: {item['text']}")
+    print(f"start: {item['start']/60}")
+    print(f"end: {item['end']/60}")
+    print("\n---\n")
