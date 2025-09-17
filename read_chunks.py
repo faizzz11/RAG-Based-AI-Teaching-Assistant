@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import joblib
 
 def create_embedding(text_list):
     r = requests.post("http://localhost:11434/api/embed", json={
@@ -32,31 +33,19 @@ for json_file in jsons: # it will load all the chunk of a particular video
         my_dicts.append(chunk)
         #if(i==5):  #stoping for running example faster
         # break
-    break    
+    #break  # stopping after first file for testing purpose   
 
 # print(my_dicts)
 
 df = pd.DataFrame.from_records(my_dicts)
 #print(df)
-# df.to_csv("all_chunks_&_embeddings.csv")
-df.to_csv("testt.csv")
+
+#saving this df using joblib
+joblib.dump(df, "embeddings_df.joblib")
+
+# df.to_csv("all_chunks_&_embeddings.csv") # saving all the chunks and embeddings in csv file not necessary though as we are saving in joblib format
+#df.to_csv("testt.csv") # for testing purpose
 
 # a = create_embedding(["cat sat on a mat", " I am sitting on a mat"])    
 # print(a)
 
-incoming_query = input("Enter your query: ")
-question_embedding = create_embedding([incoming_query])[0] # creating vector embedding of the user's question for futhur matching in future
-# print(question_embedding)
-
-# find similarities of question_embedding with other embeddings
-# print(np.vstack(df["embedding"].values))  # converting 1d array into 2d arrays 
-# print(np.vstack(df["embedding"].values).shape)
-
-similarities = cosine_similarity(np.vstack(df["embedding"].values), [question_embedding]).flatten()
-print(similarities)  # it will give similarity of question with all the chunks  close to 1 will be highest similar and close to 0 will be least similar
-
-max_indx = similarities.argsort()[::-1][0:3] # returns the indices that would sort an array. It does not return the sorted values — it returns the order of indices. so here if we do [::-1] it will reverse the order and [0:3] will give top 3 indices
-print(max_indx)
-
-new_df =  df.loc[max_indx]
-print(new_df[["title","number", "text"]])  # it will give top 3 similar chunk
