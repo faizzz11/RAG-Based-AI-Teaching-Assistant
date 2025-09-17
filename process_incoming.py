@@ -3,6 +3,7 @@ import requests
 import numpy as np 
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
+import json
 
 def create_embedding(text_list):
     r = requests.post("http://localhost:11434/api/embed", json={
@@ -11,6 +12,20 @@ def create_embedding(text_list):
     })
     embedding = r.json()["embeddings"]
     return embedding
+
+def inference(prompt):
+    r = requests.post("http://localhost:11434/api/generate", json={
+        "model": "llama3.2:latest",
+        "prompt": prompt,
+        "stream": False,
+        # "max_new_tokens": 512,
+        # "temperature": 0.1,
+        # "top_p": 0.75,
+        # "stop": ["###"]
+    })
+
+    response = r.json()
+    return response
 
 df = joblib.load("embeddings_df.joblib")    
 
@@ -34,26 +49,47 @@ new_df =  df.loc[max_indx]
 
 
 prompt = f"""
-You are acting as a friendly course guide for students following the Sigma Web Development Course.
+You are a course assistant helping students learn from the Sigma Web Development Course.
 
-You’ll be given subtitle chunks from the course videos. Each chunk includes:  
-- Video title  
-- Video number  
-- Chunk ID  
-- Start time in seconds  
-- End time in seconds  
-- Transcript text  
+You’ll receive subtitle chunks from the course videos. Each chunk contains:
+- Video title
+- Video number
+- Chunk ID
+- Start time in seconds
+- End time in seconds
+- Transcript text
 
-Your job:  
-- Use the subtitle data to answer the student’s question clearly.  
-- Mention **video number and title** where the answer can be found.  
-- Convert all timestamps from seconds to **minutes:seconds format** (for example, 125 seconds → 2:05).  
-- Provide a list or timeline of the relevant timestamps so the student can jump directly to those parts of the video.  
-- Speak directly to the student (like a tutor, not a teacher).  
-- If the question is off-topic or unrelated to the course, politely explain you can only answer questions about the course content.  
-- If you don’t have enough info to answer, reply with: “I’m not sure about that.”  
+Your job:
+1. **Start every answer with a one-sentence context that directly answers the student’s question.**  
+   Example:  
+   “ID and Class attributes in HTML are taught in Video 9 called ‘Id & Classes in HTML’.”
+2. After that sentence, **show the relevant information in a clean structured format**:
+   - Mention **Video Number + Title** at the top.
+   - List each relevant segment with timestamps converted from **seconds to minutes:seconds format** (for example:  
+     - 111 seconds → 1:51  
+     - 356 seconds → 5:56  
+     - 654 seconds → 10:54).
+   - Give a short one-line description of what is explained in that segment.
+3. End with a **Tip** line summarizing where to start watching.
+4. **Do NOT greet or chat casually** (no “Hi there” or “I’d be happy to…”).
+5. **Do NOT ask the student any questions at the end.** Only give the response.
+6. Use bullet points or a time-coded guide (like the example below):
 
-Here are the subtitle chunks you can use:  
+Example output style:
+ID and Class attributes in HTML are taught in Video 9 called "Id & Classes in HTML".
+Video 9: "Id & Classes in HTML"
+
+• 0:48 – 0:50 → Definition of ID attribute
+• 0:49 – 0:51 → Definition of class attribute
+• 1:18 – 1:21 → Usage of ID and classes in CSS
+
+Tip: Watch from around 0:49 onwards for a clear explanation of both attributes.
+
+7. **No small talk** – be factual and focused.
+8. If the question is unrelated to the course, reply with: “I can only answer questions related to this course.”
+9. If not enough info is available, reply: “I’m not sure about that.”
+
+Here are the subtitle chunks you can use:
 {new_df[["title", "number", "id", "start", "end", "text"]].to_json(orient="records", lines=False)}
 
 --------------------------------------------------------------------------------------------------------
@@ -61,10 +97,18 @@ Student’s Question: "{incoming_query}"
 """
 
 
+
 with open("prompt.txt", "w", encoding="utf-8") as f:
     f.write(prompt)
 
+response = inference(prompt)
+print(response)
 
+# Extract just the text portion
+response_text = response.get("response", "")
+
+with open("response.txt", "w", encoding="utf-8") as f:
+    f.write(response_text)
 
 # for index, item in new_df.iterrows():
 #     print(index)
